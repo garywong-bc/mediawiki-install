@@ -1,4 +1,4 @@
-FROM openshift/ose-base:ubi7
+FROM registry.access.redhat.com/ubi7/ubi
 ENV __doozer=update BUILD_RELEASE=202006230600.p0 BUILD_VERSION=v4.2.36 OS_GIT_MAJOR=4 OS_GIT_MINOR=2 OS_GIT_PATCH=36 OS_GIT_TREE_STATE=clean OS_GIT_VERSION=4.2.36-202006230600.p? 
 
 ENV USER_NAME=www-data \
